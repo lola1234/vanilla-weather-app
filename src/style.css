@@ -1,10 +1,12 @@
 body {
+  max-width: 600px;
+  text-align: center;
+}
+.container {
   border: 2px solid grey;
   border-radius: 15px;
   margin: 40px;
   padding: 20px 5px;
-  max-width: 600px;
-  text-align: center;
 }
 
 .sun-emoji {
