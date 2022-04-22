@@ -16,7 +16,52 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
+      <form id="search-form">
+        <input
+          type="search"
+          placeholder="Enter a city..."
+          class="form-control"
+          autocomplete="off"
+          id="city-input"
+        />
+      </form>
+
+      <br />
+      <div class="current-city" id="current-search">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="current-temperature" id="temperature">80°F</h1>
+            <h2 class="current-location" id="city">Garfield,NJ</h2>
+            <h3 id="date">Sunday 6:00</h3>
+          </div>
+          <div class="col-6 sun-emoji">☀</div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col">
+          <span class="weather-emoji">⛅</span><br />MON <br /><span
+            class="future-temperature"
+            >75°F</span
+          >
+        </div>
+        <div class="col">
+          <span class="weather-emoji">🌧</span><br />TUE <br />
+          <span class="future-temperature">70°F</span>
+        </div>
+        <div class="col">
+          <span class="weather-emoji">⛈</span><br />WED <br />
+          <span class="future-temperature">68°F</span>
+        </div>
+        <div class="col">
+          <span class="weather-emoji">🌦</span><br />THU <br />
+          <span class="future-temperature">67°F</span>
+        </div>
+        <div class="col">
+          <span class="weather-emoji">⛅</span><br />FRI <br />
+          <span class="future-temperature">72°F</span>
+        </div>
+      </div>
     </div>
     <small>
       <a href="https://github.com/lola1234/vanilla-weather-app">

@@ -1,0 +1,33 @@
+body {
+  border: 2px solid grey;
+  border-radius: 15px;
+  margin: 40px;
+  padding: 20px 5px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.sun-emoji {
+  font-size: 100px;
+}
+.weather-emoji {
+  font-size: 30px;
+}
+.current-location {
+  font-size: 40px;
+  font-weight: 400;
+  color: grey;
+  opacity: 0.8;
+}
+h3 {
+  opacity: 0.8;
+}
+.current-temperature {
+  color: rgb(0, 153, 255);
+}
+.units {
+  font-size: 15px;
+}
+.future-temperature {
+  font-size: 25px;
+}
