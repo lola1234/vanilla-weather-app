@@ -1,5 +1,10 @@
-body {  max-width: 600px;
+body {
+  max-width: 600px;
 }
+h3 {
+  opacity: 0.8;
+}
+
 .container {
   border: 2px solid grey;
   border-radius: 15px;
@@ -20,9 +25,7 @@ body {  max-width: 600px;
   color: grey;
   opacity: 0.8;
 }
-h3 {
-  opacity: 0.8;
-}
+
 .current-temperature {
   color: rgb(0, 153, 255);
 }
