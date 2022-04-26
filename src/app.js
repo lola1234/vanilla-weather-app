@@ -35,7 +35,7 @@ function displayTemperature(response) {
   cityElement.innerHTML = response.data.name;
   weatherDescriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
-  windElement.innerHTML = Math.round(response.data.main.wind.speed);
+  windElement.innerHTML = Math.round(response.data.wind.speed);
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
   iconElement.innerHTML = `http://openweatherapp.org/img/wn/${response.data.weather[0].icon}@2x.png`;
 }
