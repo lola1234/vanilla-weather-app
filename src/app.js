@@ -37,7 +37,11 @@ function displayTemperature(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
-  iconElement.innerHTML = `http://openweatherapp.org/img/wn/${response.data.weather[0].icon}@2x.png`;
+  iconElement.innerHTML = setAttribute(
+    "src",
+    `http://openweatherapp.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 let apiKey = "79e53168a6395fac841976d6b3e55fe3";
