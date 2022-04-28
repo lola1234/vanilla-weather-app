@@ -18,11 +18,13 @@ ul {
 #date {
   opacity: 0.8;
   font-size: 25px;
+  line-height:55px;
+
 }
 
 #icon {
-  font-size: 100px;
-  text-align: right;
+  font-size: 100px;  
+
 }
 
 .container {
