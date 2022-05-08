@@ -40,7 +40,7 @@
             <h2 id="date">Wednesday 7:26</h2>
             <ul>
               <li id="weatherDescription"></li>
-              <li>Precipitation: <span id="precipitation"></span>%         </li> 
+              <li>Precipitation: <span id="precipitation"></span>%</li>
               <li>Humidity: <span id="humidity"></span> %</li>
               <li>Wind: <span id="wind"></span>km/h</li>
             </ul>
@@ -61,28 +61,34 @@
         </div>
       </div>
       <br />
-      <div class="row">
-        <div class="col">
-          <span class="weather-emoji">⛅</span><br />MON <br /><span
-            class="future-temperature"
-            >75°F</span
-          >
-        </div>
-        <div class="col">
-          <span class="weather-emoji">🌧</span><br />TUE <br />
-          <span class="future-temperature">70°F</span>
-        </div>
-        <div class="col">
-          <span class="weather-emoji">⛈</span><br />WED <br />
-          <span class="future-temperature">68°F</span>
-        </div>
-        <div class="col">
-          <span class="weather-emoji">🌦</span><br />THU <br />
-          <span class="future-temperature">67°F</span>
-        </div>
-        <div class="col">
-          <span class="weather-emoji">⛅</span><br />FRI <br />
-          <span class="future-temperature">72°F</span>
+      <div class="weather-forecast" id="forecast">
+        <div class="row">
+          <div class="col-2">
+            <div class="weather-forecast-date">Mon</div>
+            <img
+              src="http://openweathermap.org/img/wn/10d@2x.png"
+              alt=""
+              width="55"
+            />
+            <div class="weather-forecast-temperatures">75°F</div>
+          </div>
+
+          <div class="col">
+            <span class="weather-emoji">🌧</span><br />TUE <br />
+            <span class="future-temperature">70°F</span>
+          </div>
+          <div class="col">
+            <span class="weather-emoji">⛈</span><br />WED <br />
+            <span class="future-temperature">68°F</span>
+          </div>
+          <div class="col">
+            <span class="weather-emoji">🌦</span><br />THU <br />
+            <span class="future-temperature">67°F</span>
+          </div>
+          <div class="col">
+            <span class="weather-emoji">⛅</span><br />FRI <br />
+            <span class="future-temperature">72°F</span>
+          </div>
         </div>
       </div>
     </div>
