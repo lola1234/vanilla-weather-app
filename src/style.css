@@ -33,14 +33,6 @@ ul {
   text-align: center;
 }
 
-.weather-emoji {
-  font-size: 30px;
-}
-
-.current-temperature {
-  color: rgb(33, 33, 114);
-}
-
 .current-temperature {
   color: rgb(0, 153, 255);
 }
