@@ -54,7 +54,7 @@ function displayForecast(response) {
             />
             <div class="weather-forecast-temperatures">${Math.round(
               forecastDay.temp
-            )}°</div>
+            )}°F</div>
         
           </div>`;
     }
