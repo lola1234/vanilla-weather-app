@@ -80,7 +80,7 @@ function displayTemperature(response) {
   let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
 
-  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  temperatureElement.innerHTML = `${Math.round(response.data.main.temp)}°F`;
   cityElement.innerHTML = response.data.name;
   weatherDescriptionElement.innerHTML = response.data.weather[0].description;
   precipitationElement.innerHTML = response.data.main.humidity;
